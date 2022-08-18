@@ -347,3 +347,27 @@ body {
 .card:hover .skills span {
   opacity: 1;
 }
+@media (max-width: 600px) {
+  .heading {
+    padding: 0px;
+    height: 100vh;
+    background: url("https://2.bp.blogspot.com/-sC_wkrmBNQc/Tu_guAvfiQI/AAAAAAAADTg/Lus8J-aAYfM/s1600/n+scale+highrise+3.JPG");
+    background-size: cover;
+  }
+  .heading span {
+    margin-top: 10rem;
+  }
+  .heading p {
+    padding: 30px;
+    color: rgb(209, 207, 207);
+  }
+  .about-us {
+    height: 50rem;
+  }
+  .card-layout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
