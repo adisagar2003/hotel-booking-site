@@ -370,4 +370,8 @@ body {
     align-items: center;
     gap: 2rem;
   }
+  .up-button {
+    position: fixed;
+    bottom: 0rem;
+  }
 }
